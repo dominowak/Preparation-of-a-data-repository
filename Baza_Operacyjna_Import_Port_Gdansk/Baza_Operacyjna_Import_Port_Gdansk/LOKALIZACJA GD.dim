@@ -1,0 +1,293 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="115e52e6-d55d-4d4a-95f2-bfbb99cf169b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>LOKALIZACJA GD</ID>
+  <Name>LOKALIZACJA GD</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2012" scrolltop="-7341" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10499" y="22056" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PRZELADUNEK_GD" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="6435" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00002319000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_PRZELADUNEK_GD" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="LOKALIZACJA_GD" left="1343" top="4707" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3789" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000cd0e00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_LOKALIZACJA_GD" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2838" top="1808" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[id_ladunek_przeladunek_fk]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="11" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3237" y="2307" />
+              <point x="3237" y="4707" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2012</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-7341</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="af586886-d31e-4961-a9bd-161c4cd36cc6">
+    <DataSourceViewID>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="00160bf2-97a9-4c4f-8f3c-f36322b0cd58">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="4c0eaa4c-b5f7-49de-82ca-f5e43c6ffb3a">
+      <ID>Id Miejsce Pk</ID>
+      <Name>Id Miejsce Pk</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8a9717a4-b59f-41fe-a9b9-2d8f3529b24a">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="840cf164-c62d-421c-8ee1-e98030bb3020">
+            <TableID>dbo_LOKALIZACJA_GD</TableID>
+            <ColumnID>id_miejsce_pk</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="73b7211f-1215-4eb5-b26c-65fc2162e8c6">
+          <AttributeID>Id Przeladunek Pk</AttributeID>
+          <Name>Id Przeladunek Pk</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b2b488d2-fe65-49e5-a818-4569ce336882">
+          <AttributeID>Srodek Transportu Przeladunek</AttributeID>
+          <Name>Srodek Transportu Przeladunek</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d904491d-82b4-4412-a432-777f74e22875">
+          <AttributeID>Wystepowanie Systemu Intermodalnego</AttributeID>
+          <Name>Wystepowanie Systemu Intermodalnego</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cd17f7ea-922f-4a2e-9440-df42317de870">
+          <AttributeID>Rodzaj Systemu Intermodalnego</AttributeID>
+          <Name>Rodzaj Systemu Intermodalnego</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7b9aee1b-fcb2-4063-ae66-57988b386ada">
+          <AttributeID>Id Przeladunek Fk</AttributeID>
+          <Name>Id Przeladunek Fk</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5c96d4bc-32b3-4aed-83b1-0ea8c29307d3">
+          <AttributeID>Port Zaladunku</AttributeID>
+          <Name>Port Zaladunku</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="db48407e-a4c7-4a7b-9420-e2291d77e8b4">
+          <AttributeID>Port Przeznaczenia</AttributeID>
+          <Name>Port Przeznaczenia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e930ab82-2d52-4516-87e6-a557220906ca">
+          <AttributeID>Terminal Rozladunku</AttributeID>
+          <Name>Terminal Rozladunku</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d13b28b7-df26-4379-b399-8e9575b9ca06">
+      <ID>Id Przeladunek Pk</ID>
+      <Name>Id Przeladunek Pk</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ca714378-b87d-4f8c-8c63-73d4dd33d9aa">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b4ed72b0-f493-440c-b501-bd190b97e48a">
+            <TableID>dbo_PRZELADUNEK_GD</TableID>
+            <ColumnID>id_przeladunek_pk</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="53e62e07-5b95-47bb-8890-a9fbffdac490">
+      <ID>Srodek Transportu Przeladunek</ID>
+      <Name>Srodek Transportu Przeladunek</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1bed4a60-28cf-4dbd-8a35-1d8691ad0e75">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a29e12c-2a5e-43bd-a643-02ba35d66c88">
+            <TableID>dbo_PRZELADUNEK_GD</TableID>
+            <ColumnID>srodek_transportu_przeladunek</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="21f8ef8c-59f3-42b9-a23d-ea8556ef40f1">
+      <ID>Wystepowanie Systemu Intermodalnego</ID>
+      <Name>Wystepowanie Systemu Intermodalnego</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="40b7a31a-39f6-4e93-a790-5b39b9f94484">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="688bff55-bb56-4492-b13f-8583f4641275">
+            <TableID>dbo_PRZELADUNEK_GD</TableID>
+            <ColumnID>wystepowanie_systemu_intermodalnego</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="98bb36ca-c78d-473c-a41e-729d23fb6058">
+      <ID>Rodzaj Systemu Intermodalnego</ID>
+      <Name>Rodzaj Systemu Intermodalnego</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="50443b65-3e5e-4869-b0b4-e2095e568cb4">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="119bdbc5-5c97-4c11-9569-cf4eb6234150">
+            <TableID>dbo_PRZELADUNEK_GD</TableID>
+            <ColumnID>rodzaj_systemu_intermodalnego</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ad8bf879-b52e-484e-84bb-3c4254308658">
+      <ID>Id Przeladunek Fk</ID>
+      <Name>Id Przeladunek Fk</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4e1b7fd2-b24d-4cf5-8222-56d01825b6d4">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="05a1a176-0c4e-49d7-8413-37267ca0f89e">
+            <TableID>dbo_LOKALIZACJA_GD</TableID>
+            <ColumnID>id_przeladunek_fk</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e819bf74-b950-4686-9a65-e7e7c4812df3">
+      <ID>Port Zaladunku</ID>
+      <Name>Port Zaladunku</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f9a3a2c1-d5ed-4c59-82ac-19810ebb2422">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7588635a-eb48-440a-b36e-9bc888707855">
+            <TableID>dbo_LOKALIZACJA_GD</TableID>
+            <ColumnID>port_zaladunku</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0cab567c-014f-4897-80f4-6205cfb34f8d">
+      <ID>Port Przeznaczenia</ID>
+      <Name>Port Przeznaczenia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="40a336d6-7816-47c0-b801-78ce5d7e6b4e">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e91ad51f-7409-498e-b485-676ed61cbc99">
+            <TableID>dbo_LOKALIZACJA_GD</TableID>
+            <ColumnID>port_przeznaczenia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5e33ce37-a096-4abe-86e4-06fa46fb8001">
+      <ID>Terminal Rozladunku</ID>
+      <Name>Terminal Rozladunku</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7bea89f3-70d4-4013-8210-f5194d275c42">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="243b1a60-9346-49bb-8428-8ce273d58740">
+            <TableID>dbo_LOKALIZACJA_GD</TableID>
+            <ColumnID>terminal_rozladunku</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

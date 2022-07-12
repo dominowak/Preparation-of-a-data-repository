@@ -1,0 +1,240 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5951e699-a248-40d4-bd0f-1109ecbcc720" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CZAS GD</ID>
+  <Name>CZAS GD</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1451" scrolltop="-8932" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10499" y="22056" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CZAS_GD" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="7112" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c81b0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_CZAS_GD" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1451</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-8932</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1f101828-1a99-4339-b76c-5dbc95ce99c7">
+    <DataSourceViewID>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="88f40438-2e0b-47f8-a8d7-b247d4cee149">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="f6ee0e71-9e5e-4449-b17f-b2cda01c8d5f">
+      <ID>Id Czas Pk</ID>
+      <Name>Id Czas Pk</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="be8e9fdc-d2a9-404a-9a31-6e41461ae834">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="44682f3a-efc7-41f8-9744-52ff63c07314">
+            <TableID>dbo_CZAS_GD</TableID>
+            <ColumnID>id_czas_pk</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d0f7ebb2-bb6f-4a81-9f92-3513dea4bbba">
+          <AttributeID>Dzien Tygodnia Zlozenia Zamowienia</AttributeID>
+          <Name>Dzien Tygodnia Zlozenia Zamowienia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="698cd29e-b754-451b-9657-3114e3005ece">
+          <AttributeID>Dzien Tygodnia Zlozenia Zamowienia Nazwa</AttributeID>
+          <Name>Dzien Tygodnia Zlozenia Zamowienia Nazwa</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d3ed95c7-481c-46dc-8e4a-dd5f10022acb">
+          <AttributeID>Miesiac Zamowienia</AttributeID>
+          <Name>Miesiac Zamowienia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5d704ef4-8310-4715-a702-082c8a95a295">
+          <AttributeID>Miesiac Zamowienia Nazwa</AttributeID>
+          <Name>Miesiac Zamowienia Nazwa</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4bbbdcb5-c06a-4b29-a7b0-19feed48e740">
+          <AttributeID>Rok Zlozenia Zamowienia</AttributeID>
+          <Name>Rok Zlozenia Zamowienia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="97246385-05db-4801-99f4-a0fbc287a0a2">
+          <AttributeID>Kwartal</AttributeID>
+          <Name>Kwartal</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="46603f3b-b8ce-4e78-bffe-8bf519a68be2">
+          <AttributeID>Kwartal Nazwa</AttributeID>
+          <Name>Kwartal Nazwa</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="59555ac4-be0e-43c4-a685-49079cf7f145">
+      <ID>Dzien Tygodnia Zlozenia Zamowienia</ID>
+      <Name>Dzien Tygodnia Zlozenia Zamowienia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3f9ef3b8-d2b0-48ea-b2b1-4e6f5f624506">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="25eec8e7-bdf7-4130-96bc-e3004a5a5c84">
+            <TableID>dbo_CZAS_GD</TableID>
+            <ColumnID>dzien_tygodnia_zlozenia_zamowienia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fe7d78cd-7d00-4b47-8d51-429a1f8e7b9d">
+      <ID>Dzien Tygodnia Zlozenia Zamowienia Nazwa</ID>
+      <Name>Dzien Tygodnia Zlozenia Zamowienia Nazwa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="690ff7e1-5764-45ef-8300-76e4f3f7a144">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cb007665-d041-48d3-b8fc-b5bb785a13ae">
+            <TableID>dbo_CZAS_GD</TableID>
+            <ColumnID>dzien_tygodnia_zlozenia_zamowienia_nazwa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="07f2b7f1-9c98-45a0-8336-8076292c3fae">
+      <ID>Miesiac Zamowienia</ID>
+      <Name>Miesiac Zamowienia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="50ca9865-7536-460d-a4ad-714abfd1b995">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3049d4d0-7938-4f89-812f-6e8ffc0bc6ae">
+            <TableID>dbo_CZAS_GD</TableID>
+            <ColumnID>miesiac_zamowienia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2917200c-d0df-4232-bca8-0f2faf8cfa82">
+      <ID>Miesiac Zamowienia Nazwa</ID>
+      <Name>Miesiac Zamowienia Nazwa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="898f6320-383b-44f9-b712-d2fec89d732d">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="edae5391-5c26-4a82-beb3-56a2ee29dd1b">
+            <TableID>dbo_CZAS_GD</TableID>
+            <ColumnID>miesiac_zamowienia_nazwa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eb85c9fe-ed33-45e4-b9e1-7ac7b77a76c1">
+      <ID>Rok Zlozenia Zamowienia</ID>
+      <Name>Rok Zlozenia Zamowienia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d5e079d6-6eab-459c-9685-006a2130475b">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="51a07c2e-9991-4d85-ba1e-2aae65e1b408">
+            <TableID>dbo_CZAS_GD</TableID>
+            <ColumnID>rok_zlozenia_zamowienia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fb9abefc-b741-4939-9863-3eb504eee1c2">
+      <ID>Kwartal</ID>
+      <Name>Kwartal</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a677fe1b-7306-422a-a62f-5ee91c8754bf">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="664ec024-8a5b-4b74-8349-010e410893a8">
+            <TableID>dbo_CZAS_GD</TableID>
+            <ColumnID>kwartal</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="44542be6-6c9e-4181-938d-de985c75f84e">
+      <ID>Kwartal Nazwa</ID>
+      <Name>Kwartal Nazwa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e22dfd0b-5e3c-4c74-b029-a5a2887a3bd7">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="491c8edf-4d49-469c-91b9-b986a6216a45">
+            <TableID>dbo_CZAS_GD</TableID>
+            <ColumnID>kwartal_nazwa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

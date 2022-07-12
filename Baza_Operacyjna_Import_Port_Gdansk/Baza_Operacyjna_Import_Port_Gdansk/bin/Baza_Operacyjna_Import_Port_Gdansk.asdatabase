@@ -1,0 +1,2519 @@
+﻿<Database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Baza_Operacyjna_Import_Port_Gdansk</ID>
+  <Name>Baza_Operacyjna_Import_Port_Gdansk</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <LastUpdate>0001-01-01T00:00:00Z</LastUpdate>
+  <DataSourceImpersonationInfo>
+    <ImpersonationMode>Default</ImpersonationMode>
+    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+  </DataSourceImpersonationInfo>
+  <Dimensions>
+    <Dimension>
+      <ID>KLIENT GD</ID>
+      <Name>KLIENT GD</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2403" scrolltop="-7521" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10499" y="22056" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CENTRUM_DYSTRYBUCJI_GD" left="20" top="4707" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5652" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e00001416000003090000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_CENTRUM_DYSTRYBUCJI_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="KLIENT_GD" left="62" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="5567" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000bf15000003090000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_KLIENT_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="2447" top="2007" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[id_region_centrum_dystrybucji_fk]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="8" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="2846" y="4707" />
+                  <point x="2846" y="3507" />
+                  <point x="2845" y="3507" />
+                  <point x="2845" y="2307" />
+                </connector>
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-2403</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-7521</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</DataSourceViewID>
+      </Source>
+      <UnknownMember>Visible</UnknownMember>
+      <ErrorConfiguration>
+        <KeyNotFound>ReportAndStop</KeyNotFound>
+        <KeyDuplicate>ReportAndStop</KeyDuplicate>
+        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+      </ErrorConfiguration>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Attributes>
+        <Attribute>
+          <ID>Id Klient Pk</ID>
+          <Name>Id Klient Pk</Name>
+          <Usage>Key</Usage>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_KLIENT_GD</TableID>
+                <ColumnID>id_klient_pk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Id Region Centrum Dystrybucji Pk</AttributeID>
+              <Name>Id Region Centrum Dystrybucji Pk</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Id Region Centrum Dystrybucji Fk</AttributeID>
+              <Name>Id Region Centrum Dystrybucji Fk</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Nazwa Firmy</AttributeID>
+              <Name>Nazwa Firmy</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Numer Telefonu Centrali</AttributeID>
+              <Name>Numer Telefonu Centrali</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Region Centrum Dystrybucji</AttributeID>
+              <Name>Region Centrum Dystrybucji</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Wojewodztwo Centrum Dystrybucji</AttributeID>
+              <Name>Wojewodztwo Centrum Dystrybucji</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Numer Telefonu Oddziału</AttributeID>
+              <Name>Numer Telefonu Oddziału</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Id Region Centrum Dystrybucji Pk</ID>
+          <Name>Id Region Centrum Dystrybucji Pk</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CENTRUM_DYSTRYBUCJI_GD</TableID>
+                <ColumnID>id_region_centrum_dystrybucji_pk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Id Region Centrum Dystrybucji Fk</ID>
+          <Name>Id Region Centrum Dystrybucji Fk</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_KLIENT_GD</TableID>
+                <ColumnID>id_region_centrum_dystrybucji_fk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Nazwa Firmy</ID>
+          <Name>Nazwa Firmy</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_KLIENT_GD</TableID>
+                <ColumnID>nazwa_firmy</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Numer Telefonu Centrali</ID>
+          <Name>Numer Telefonu Centrali</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_KLIENT_GD</TableID>
+                <ColumnID>numer_telefonu_centrali</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Region Centrum Dystrybucji</ID>
+          <Name>Region Centrum Dystrybucji</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CENTRUM_DYSTRYBUCJI_GD</TableID>
+                <ColumnID>region_centrum_dystrybucji</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Wojewodztwo Centrum Dystrybucji</ID>
+          <Name>Wojewodztwo Centrum Dystrybucji</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CENTRUM_DYSTRYBUCJI_GD</TableID>
+                <ColumnID>wojewodztwo_centrum_dystrybucji</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Numer Telefonu Oddziału</ID>
+          <Name>Numer Telefonu Oddziału</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CENTRUM_DYSTRYBUCJI_GD</TableID>
+                <ColumnID>numer_telefonu_oddziału</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+      </Attributes>
+      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+    </Dimension>
+    <Dimension>
+      <ID>PARAMETRY STATKU GD</ID>
+      <Name>PARAMETRY STATKU GD</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3081" scrolltop="-9515" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10499" y="22056" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PARAMETRY_STATKU_GD" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4297" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000c9100000d30b0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_PARAMETRY_STATKU_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-3081</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-9515</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</DataSourceViewID>
+      </Source>
+      <UnknownMember>Visible</UnknownMember>
+      <ErrorConfiguration>
+        <KeyNotFound>ReportAndStop</KeyNotFound>
+        <KeyDuplicate>ReportAndStop</KeyDuplicate>
+        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+      </ErrorConfiguration>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Attributes>
+        <Attribute>
+          <ID>Id Parametry Statku Pk</ID>
+          <Name>Id Parametry Statku Pk</Name>
+          <Usage>Key</Usage>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_PARAMETRY_STATKU_GD</TableID>
+                <ColumnID>id_parametry_statku_pk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Typ Statku</AttributeID>
+              <Name>Typ Statku</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Armator Statku</AttributeID>
+              <Name>Armator Statku</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Rozmiar Statku TEU</AttributeID>
+              <Name>Rozmiar Statku TEU</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Bandera Statku</AttributeID>
+              <Name>Bandera Statku</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Numer Imo</AttributeID>
+              <Name>Numer Imo</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Typ Statku</ID>
+          <Name>Typ Statku</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_PARAMETRY_STATKU_GD</TableID>
+                <ColumnID>typ_statku</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Armator Statku</ID>
+          <Name>Armator Statku</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_PARAMETRY_STATKU_GD</TableID>
+                <ColumnID>armator_statku</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Rozmiar Statku TEU</ID>
+          <Name>Rozmiar Statku TEU</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_PARAMETRY_STATKU_GD</TableID>
+                <ColumnID>rozmiar_statku_TEU</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Bandera Statku</ID>
+          <Name>Bandera Statku</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_PARAMETRY_STATKU_GD</TableID>
+                <ColumnID>bandera_statku</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Numer Imo</ID>
+          <Name>Numer Imo</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_PARAMETRY_STATKU_GD</TableID>
+                <ColumnID>numer_imo</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+      </Attributes>
+      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+    </Dimension>
+    <Dimension>
+      <ID>CZAS GD</ID>
+      <Name>CZAS GD</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1451" scrolltop="-8932" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10499" y="22056" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CZAS_GD" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="7112" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000c81b0000a30e0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_CZAS_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-1451</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-8932</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</DataSourceViewID>
+      </Source>
+      <UnknownMember>Visible</UnknownMember>
+      <ErrorConfiguration>
+        <KeyNotFound>ReportAndStop</KeyNotFound>
+        <KeyDuplicate>ReportAndStop</KeyDuplicate>
+        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+      </ErrorConfiguration>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Attributes>
+        <Attribute>
+          <ID>Id Czas Pk</ID>
+          <Name>Id Czas Pk</Name>
+          <Usage>Key</Usage>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CZAS_GD</TableID>
+                <ColumnID>id_czas_pk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Dzien Tygodnia Zlozenia Zamowienia</AttributeID>
+              <Name>Dzien Tygodnia Zlozenia Zamowienia</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Dzien Tygodnia Zlozenia Zamowienia Nazwa</AttributeID>
+              <Name>Dzien Tygodnia Zlozenia Zamowienia Nazwa</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Miesiac Zamowienia</AttributeID>
+              <Name>Miesiac Zamowienia</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Miesiac Zamowienia Nazwa</AttributeID>
+              <Name>Miesiac Zamowienia Nazwa</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Rok Zlozenia Zamowienia</AttributeID>
+              <Name>Rok Zlozenia Zamowienia</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Kwartal</AttributeID>
+              <Name>Kwartal</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Kwartal Nazwa</AttributeID>
+              <Name>Kwartal Nazwa</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Dzien Tygodnia Zlozenia Zamowienia</ID>
+          <Name>Dzien Tygodnia Zlozenia Zamowienia</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CZAS_GD</TableID>
+                <ColumnID>dzien_tygodnia_zlozenia_zamowienia</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Dzien Tygodnia Zlozenia Zamowienia Nazwa</ID>
+          <Name>Dzien Tygodnia Zlozenia Zamowienia Nazwa</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CZAS_GD</TableID>
+                <ColumnID>dzien_tygodnia_zlozenia_zamowienia_nazwa</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Miesiac Zamowienia</ID>
+          <Name>Miesiac Zamowienia</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CZAS_GD</TableID>
+                <ColumnID>miesiac_zamowienia</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Miesiac Zamowienia Nazwa</ID>
+          <Name>Miesiac Zamowienia Nazwa</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CZAS_GD</TableID>
+                <ColumnID>miesiac_zamowienia_nazwa</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Rok Zlozenia Zamowienia</ID>
+          <Name>Rok Zlozenia Zamowienia</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CZAS_GD</TableID>
+                <ColumnID>rok_zlozenia_zamowienia</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Kwartal</ID>
+          <Name>Kwartal</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CZAS_GD</TableID>
+                <ColumnID>kwartal</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Kwartal Nazwa</ID>
+          <Name>Kwartal Nazwa</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_CZAS_GD</TableID>
+                <ColumnID>kwartal_nazwa</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+      </Attributes>
+      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+    </Dimension>
+    <Dimension>
+      <ID>LOKALIZACJA GD</ID>
+      <Name>LOKALIZACJA GD</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2012" scrolltop="-7341" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10499" y="22056" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PRZELADUNEK_GD" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="6435" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e00002319000003090000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_PRZELADUNEK_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="LOKALIZACJA_GD" left="1343" top="4707" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3789" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000cd0e00006b0a0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_LOKALIZACJA_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="2838" top="1808" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[id_ladunek_przeladunek_fk]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="11" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="3237" y="2307" />
+                  <point x="3237" y="4707" />
+                </connector>
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-2012</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-7341</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</DataSourceViewID>
+      </Source>
+      <UnknownMember>Visible</UnknownMember>
+      <ErrorConfiguration>
+        <KeyNotFound>ReportAndStop</KeyNotFound>
+        <KeyDuplicate>ReportAndStop</KeyDuplicate>
+        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+      </ErrorConfiguration>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Attributes>
+        <Attribute>
+          <ID>Id Miejsce Pk</ID>
+          <Name>Id Miejsce Pk</Name>
+          <Usage>Key</Usage>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_LOKALIZACJA_GD</TableID>
+                <ColumnID>id_miejsce_pk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Id Przeladunek Pk</AttributeID>
+              <Name>Id Przeladunek Pk</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Srodek Transportu Przeladunek</AttributeID>
+              <Name>Srodek Transportu Przeladunek</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Wystepowanie Systemu Intermodalnego</AttributeID>
+              <Name>Wystepowanie Systemu Intermodalnego</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Rodzaj Systemu Intermodalnego</AttributeID>
+              <Name>Rodzaj Systemu Intermodalnego</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Id Przeladunek Fk</AttributeID>
+              <Name>Id Przeladunek Fk</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Port Zaladunku</AttributeID>
+              <Name>Port Zaladunku</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Port Przeznaczenia</AttributeID>
+              <Name>Port Przeznaczenia</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Terminal Rozladunku</AttributeID>
+              <Name>Terminal Rozladunku</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Id Przeladunek Pk</ID>
+          <Name>Id Przeladunek Pk</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_PRZELADUNEK_GD</TableID>
+                <ColumnID>id_przeladunek_pk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Srodek Transportu Przeladunek</ID>
+          <Name>Srodek Transportu Przeladunek</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_PRZELADUNEK_GD</TableID>
+                <ColumnID>srodek_transportu_przeladunek</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Wystepowanie Systemu Intermodalnego</ID>
+          <Name>Wystepowanie Systemu Intermodalnego</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_PRZELADUNEK_GD</TableID>
+                <ColumnID>wystepowanie_systemu_intermodalnego</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Rodzaj Systemu Intermodalnego</ID>
+          <Name>Rodzaj Systemu Intermodalnego</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_PRZELADUNEK_GD</TableID>
+                <ColumnID>rodzaj_systemu_intermodalnego</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Id Przeladunek Fk</ID>
+          <Name>Id Przeladunek Fk</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_LOKALIZACJA_GD</TableID>
+                <ColumnID>id_przeladunek_fk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Port Zaladunku</ID>
+          <Name>Port Zaladunku</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_LOKALIZACJA_GD</TableID>
+                <ColumnID>port_zaladunku</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Port Przeznaczenia</ID>
+          <Name>Port Przeznaczenia</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_LOKALIZACJA_GD</TableID>
+                <ColumnID>port_przeznaczenia</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Terminal Rozladunku</ID>
+          <Name>Terminal Rozladunku</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_LOKALIZACJA_GD</TableID>
+                <ColumnID>terminal_rozladunku</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+      </Attributes>
+      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+    </Dimension>
+    <Dimension>
+      <ID>LADUNEK GD</ID>
+      <Name>LADUNEK GD</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="4" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2213" scrolltop="-6938" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10499" y="22056" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="LADUNEK_GD" left="168" top="4707" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5292" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000ac140000d30b0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_LADUNEK_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="JEDNOSTKA_MIARY_LADUNKU_GD" left="20" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="5588" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000d415000003090000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_JEDNOSTKA_MIARY_LADUNKU_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="2415" top="1808" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[id_jednostka_miary_ladunku_fk]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="9" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="2814" y="2307" />
+                  <point x="2814" y="4707" />
+                </connector>
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-2213</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>-6938</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>100</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Source xsi:type="DataSourceViewBinding">
+        <DataSourceViewID>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</DataSourceViewID>
+      </Source>
+      <UnknownMember>Visible</UnknownMember>
+      <ErrorConfiguration>
+        <KeyNotFound>ReportAndStop</KeyNotFound>
+        <KeyDuplicate>ReportAndStop</KeyDuplicate>
+        <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+      </ErrorConfiguration>
+      <CurrentStorageMode>Molap</CurrentStorageMode>
+      <Attributes>
+        <Attribute>
+          <ID>Id Ladunek Pk</ID>
+          <Name>Id Ladunek Pk</Name>
+          <Usage>Key</Usage>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_LADUNEK_GD</TableID>
+                <ColumnID>id_ladunek_pk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <AttributeRelationships>
+            <AttributeRelationship>
+              <AttributeID>Id Jednostka Miary Ladunku Pk</AttributeID>
+              <Name>Id Jednostka Miary Ladunku Pk</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Nazwa Jednostki Miary</AttributeID>
+              <Name>Nazwa Jednostki Miary</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Jednostka Miary Ladunku Symbol</AttributeID>
+              <Name>Jednostka Miary Ladunku Symbol</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Opis Jednostki Miary</AttributeID>
+              <Name>Opis Jednostki Miary</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Id Jednostka Miary Ladunku Fk</AttributeID>
+              <Name>Id Jednostka Miary Ladunku Fk</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Nazwa Towaru</AttributeID>
+              <Name>Nazwa Towaru</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Masa Ladunku</AttributeID>
+              <Name>Masa Ladunku</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Rodzaj Zmiennej Towaru</AttributeID>
+              <Name>Rodzaj Zmiennej Towaru</Name>
+            </AttributeRelationship>
+            <AttributeRelationship>
+              <AttributeID>Warunki Przewozu</AttributeID>
+              <Name>Warunki Przewozu</Name>
+            </AttributeRelationship>
+          </AttributeRelationships>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Id Jednostka Miary Ladunku Pk</ID>
+          <Name>Id Jednostka Miary Ladunku Pk</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <NullProcessing>UnknownMember</NullProcessing>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_JEDNOSTKA_MIARY_LADUNKU_GD</TableID>
+                <ColumnID>id_jednostka_miary_ladunku_pk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <OrderBy>Key</OrderBy>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Nazwa Jednostki Miary</ID>
+          <Name>Nazwa Jednostki Miary</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_JEDNOSTKA_MIARY_LADUNKU_GD</TableID>
+                <ColumnID>nazwa_jednostki_miary</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Jednostka Miary Ladunku Symbol</ID>
+          <Name>Jednostka Miary Ladunku Symbol</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_JEDNOSTKA_MIARY_LADUNKU_GD</TableID>
+                <ColumnID>jednostka_miary_ladunku_symbol</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Opis Jednostki Miary</ID>
+          <Name>Opis Jednostki Miary</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_JEDNOSTKA_MIARY_LADUNKU_GD</TableID>
+                <ColumnID>opis_jednostki_miary</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Id Jednostka Miary Ladunku Fk</ID>
+          <Name>Id Jednostka Miary Ladunku Fk</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_LADUNEK_GD</TableID>
+                <ColumnID>id_jednostka_miary_ladunku_fk</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Nazwa Towaru</ID>
+          <Name>Nazwa Towaru</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_LADUNEK_GD</TableID>
+                <ColumnID>nazwa_towaru</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Masa Ladunku</ID>
+          <Name>Masa Ladunku</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>Double</DataType>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_LADUNEK_GD</TableID>
+                <ColumnID>masa_ladunku</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Rodzaj Zmiennej Towaru</ID>
+          <Name>Rodzaj Zmiennej Towaru</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_LADUNEK_GD</TableID>
+                <ColumnID>rodzaj_zmiennej_towaru</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+        <Attribute>
+          <ID>Warunki Przewozu</ID>
+          <Name>Warunki Przewozu</Name>
+          <KeyColumns>
+            <KeyColumn>
+              <DataType>WChar</DataType>
+              <DataSize>255</DataSize>
+              <Source xsi:type="ColumnBinding">
+                <TableID>dbo_LADUNEK_GD</TableID>
+                <ColumnID>warunki_przewozu</ColumnID>
+              </Source>
+            </KeyColumn>
+          </KeyColumns>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+          <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+        </Attribute>
+      </Attributes>
+      <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+    </Dimension>
+  </Dimensions>
+  <Cubes>
+    <Cube>
+      <ID>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</ID>
+      <Name>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+          <Value>
+            <dds xmlns="">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="18" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5872" scrolltop="4341" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="29295" y="22056" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <font>
+                  <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+                </font>
+                <mouseicon>
+                  <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+                </mouseicon>
+              </diagram>
+              <layoutmanager>
+                <ddsxmlobj />
+              </layoutmanager>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PRZELADUNEK_GD" left="3803" top="22982" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="6435" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e00002319000003090000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_PRZELADUNEK_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PARAMETRY_STATKU_GD" left="12637" top="17915" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="4297" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000c9100000d30b0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_PARAMETRY_STATKU_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="LADUNEK_GD" left="8220" top="4707" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="5292" height="3152" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000ac140000500c0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_LADUNEK_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="LOKALIZACJA_GD" left="5126" top="17915" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="3789" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000cd0e00006b0a0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_LOKALIZACJA_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TFAKT_GD" left="8072" top="10314" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="4593" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000f11100003b0d0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_TFAKT_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CZAS_GD" left="15065" top="10134" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="7112" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000c81b0000a30e0000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_CZAS_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="CENTRUM_DYSTRYBUCJI_GD" left="20" top="8501" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="5652" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e00001416000003090000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_CENTRUM_DYSTRYBUCJI_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="KLIENT_GD" left="62" top="13208" logicalid="8" controlid="8" masterid="0" hint1="0" hint2="0" width="5567" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000bf15000003090000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_KLIENT_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="JEDNOSTKA_MIARY_LADUNKU_GD" left="8072" top="0" logicalid="9" controlid="9" masterid="0" hint1="0" hint2="0" width="5588" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobjectstreaminitwrapper binary="000e0000d415000003090000" />
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dbo_JEDNOSTKA_MIARY_LADUNKU_GD" vartype="8" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <shape groupshapeid="0" groupnode="0" />
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="6621" top="20282" logicalid="10" controlid="10" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[id_ladunek_przeladunek_fk]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="4" sourceattachpoint="10" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="7020" y="22982" />
+                  <point x="7020" y="20582" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="10618" top="13401" logicalid="11" controlid="11" masterid="0" hint1="0" hint2="0" width="4567" height="5014" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK__TFAKT_GD__id_par__3A81B327]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="6" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="14785" y="17915" />
+                  <point x="14785" y="15808" />
+                  <point x="10918" y="15808" />
+                  <point x="10918" y="13701" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="10467" top="1808" logicalid="12" controlid="12" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[id_jednostka_miary_ladunku_fk]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="3" sourceattachpoint="9" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="10866" y="2307" />
+                  <point x="10866" y="4707" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="10068" top="7360" logicalid="13" controlid="13" masterid="0" hint1="0" hint2="0" width="1198" height="3254" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK__TFAKT_GD__id_lad__36B12243]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="9" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="10866" y="7859" />
+                  <point x="10866" y="9270" />
+                  <point x="10368" y="9270" />
+                  <point x="10368" y="10314" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="6621" top="13401" logicalid="14" controlid="14" masterid="0" hint1="0" hint2="0" width="2947" height="5014" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK__TFAKT_GD__id_mie__398D8EEE]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="6" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="7020" y="17915" />
+                  <point x="7020" y="15808" />
+                  <point x="9268" y="15808" />
+                  <point x="9268" y="13701" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="5329" top="11707" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="3043" height="3054" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK__TFAKT_GD__id_kli__37A5467C]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="5" sourceattachpoint="21" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="5629" y="14361" />
+                  <point x="6850" y="14361" />
+                  <point x="6850" y="12007" />
+                  <point x="8072" y="12007" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="12365" top="11608" logicalid="16" controlid="16" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[FK__TFAKT_GD__id_cza__38996AB5]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="5" sourceattachpoint="32" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="15065" y="12007" />
+                  <point x="12665" y="12007" />
+                </connector>
+              </ddscontrol>
+              <ddscontrol controlprogid="MSDDS.Polyline" left="2447" top="10309" logicalid="17" controlid="17" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <control>
+                  <ddsxmlobj>
+                    <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                  </ddsxmlobj>
+                </control>
+                <layoutobject>
+                  <ddsxmlobj>
+                    <property name="LogicalObject" value="dataSet.Relations[id_region_centrum_dystrybucji_fk]" vartype="8" />
+                    <property name="Virtual" value="0" vartype="11" />
+                    <property name="VisibleAP" value="0" vartype="3" />
+                  </ddsxmlobj>
+                </layoutobject>
+                <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="8" sourceattachpoint="9" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <point x="2846" y="10808" />
+                  <point x="2846" y="12008" />
+                  <point x="2845" y="12008" />
+                  <point x="2845" y="13208" />
+                </connector>
+              </ddscontrol>
+            </dds>
+          </Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+          <Value>false</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+          <Value>-5872</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+          <Value>4341</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+          <Value>20</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+          <Value>0</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+          <Value>85</Value>
+        </Annotation>
+      </Annotations>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Dimensions>
+        <Dimension>
+          <ID>KLIENT GD</ID>
+          <Name>KLIENT GD</Name>
+          <DimensionID>KLIENT GD</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Id Klient Pk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Id Region Centrum Dystrybucji Pk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Id Region Centrum Dystrybucji Fk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Nazwa Firmy</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Numer Telefonu Centrali</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Region Centrum Dystrybucji</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Wojewodztwo Centrum Dystrybucji</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Numer Telefonu Oddziału</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension>
+          <ID>PARAMETRY STATKU GD</ID>
+          <Name>PARAMETRY STATKU GD</Name>
+          <DimensionID>PARAMETRY STATKU GD</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Id Parametry Statku Pk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Typ Statku</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Armator Statku</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Rozmiar Statku TEU</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Bandera Statku</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Numer Imo</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension>
+          <ID>CZAS GD</ID>
+          <Name>CZAS GD</Name>
+          <DimensionID>CZAS GD</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Id Czas Pk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Dzien Tygodnia Zlozenia Zamowienia</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Dzien Tygodnia Zlozenia Zamowienia Nazwa</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Miesiac Zamowienia</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Miesiac Zamowienia Nazwa</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Rok Zlozenia Zamowienia</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Kwartal</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Kwartal Nazwa</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension>
+          <ID>LOKALIZACJA GD</ID>
+          <Name>LOKALIZACJA GD</Name>
+          <DimensionID>LOKALIZACJA GD</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Id Miejsce Pk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Id Przeladunek Pk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Srodek Transportu Przeladunek</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Wystepowanie Systemu Intermodalnego</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Rodzaj Systemu Intermodalnego</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Id Przeladunek Fk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Port Zaladunku</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Port Przeznaczenia</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Terminal Rozladunku</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension>
+          <ID>LADUNEK GD</ID>
+          <Name>LADUNEK GD</Name>
+          <DimensionID>LADUNEK GD</DimensionID>
+          <Attributes>
+            <Attribute>
+              <AttributeID>Id Ladunek Pk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Id Jednostka Miary Ladunku Pk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Nazwa Jednostki Miary</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Jednostka Miary Ladunku Symbol</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Opis Jednostki Miary</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Id Jednostka Miary Ladunku Fk</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Nazwa Towaru</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Masa Ladunku</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Rodzaj Zmiennej Towaru</AttributeID>
+            </Attribute>
+            <Attribute>
+              <AttributeID>Warunki Przewozu</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup>
+          <ID>TFAKT GD</ID>
+          <Name>TFAKT GD</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Measures>
+            <Measure>
+              <ID>Wartosc Zamowienia EUR</ID>
+              <Name>Wartosc Zamowienia EUR</Name>
+              <Source>
+                <DataType>Double</DataType>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_TFAKT_GD</TableID>
+                  <ColumnID>wartosc_zamowienia_EUR</ColumnID>
+                </Source>
+              </Source>
+            </Measure>
+            <Measure>
+              <ID>Liczba Jednostek</ID>
+              <Name>Liczba Jednostek</Name>
+              <Source>
+                <DataType>Double</DataType>
+                <Source xsi:type="ColumnBinding">
+                  <TableID>dbo_TFAKT_GD</TableID>
+                  <ColumnID>liczba_jednostek</ColumnID>
+                </Source>
+              </Source>
+            </Measure>
+            <Measure>
+              <ID>TFAKT GD Count</ID>
+              <Name>TFAKT GD Count</Name>
+              <AggregateFunction>Count</AggregateFunction>
+              <Source>
+                <DataType>Integer</DataType>
+                <DataSize>4</DataSize>
+                <Source xsi:type="RowBinding">
+                  <TableID>dbo_TFAKT_GD</TableID>
+                </Source>
+              </Source>
+            </Measure>
+          </Measures>
+          <StorageMode>Molap</StorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <Dimensions>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>KLIENT GD</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Klient Pk</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Double</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_TFAKT_GD</TableID>
+                        <ColumnID>id_klient_fk</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>PARAMETRY STATKU GD</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Parametry Statku Pk</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Double</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_TFAKT_GD</TableID>
+                        <ColumnID>id_parametry_statku_fk</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>CZAS GD</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Czas Pk</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Double</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_TFAKT_GD</TableID>
+                        <ColumnID>id_czas_fk</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>LOKALIZACJA GD</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Miejsce Pk</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Double</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_TFAKT_GD</TableID>
+                        <ColumnID>id_miejsce_fk</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension xsi:type="RegularMeasureGroupDimension">
+              <CubeDimensionID>LADUNEK GD</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Ladunek Pk</AttributeID>
+                  <KeyColumns>
+                    <KeyColumn>
+                      <DataType>Double</DataType>
+                      <NullProcessing>UnknownMember</NullProcessing>
+                      <Source xsi:type="ColumnBinding">
+                        <TableID>dbo_TFAKT_GD</TableID>
+                        <ColumnID>id_ladunek_fk</ColumnID>
+                      </Source>
+                    </KeyColumn>
+                  </KeyColumns>
+                  <Type>Granularity</Type>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <Partitions>
+            <Partition>
+              <ID>TFAKT GD</ID>
+              <Name>TFAKT GD</Name>
+              <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+              <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+              <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+              <State>Unprocessed</State>
+              <Source xsi:type="DsvTableBinding">
+                <DataSourceViewID>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</DataSourceViewID>
+                <TableID>dbo_TFAKT_GD</TableID>
+              </Source>
+              <StorageMode>Molap</StorageMode>
+              <CurrentStorageMode>Molap</CurrentStorageMode>
+              <ProcessingMode>Regular</ProcessingMode>
+            </Partition>
+          </Partitions>
+        </MeasureGroup>
+      </MeasureGroups>
+      <Source>
+        <DataSourceViewID>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</DataSourceViewID>
+      </Source>
+    </Cube>
+  </Cubes>
+  <DataSources>
+    <DataSource xsi:type="RelationalDataSource">
+      <ID>Baza_Operacyjna_Import_Port_Gdansk</ID>
+      <Name>Baza_Operacyjna_Import_Port_Gdansk</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <ConnectionString>Provider=SQLNCLI11.1;Data Source=DESKTOP-3JK0H73\SQLEXPRESS;Integrated Security=SSPI;Initial Catalog=Baza_Import_Port_Gdansk</ConnectionString>
+      <ConnectionStringSecurity>Unchanged</ConnectionStringSecurity>
+      <ImpersonationInfo>
+        <ImpersonationMode>Default</ImpersonationMode>
+        <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+      </ImpersonationInfo>
+      <Timeout>PT0S</Timeout>
+    </DataSource>
+  </DataSources>
+  <DataSourceViews>
+    <DataSourceView>
+      <ID>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</ID>
+      <Name>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Annotations>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+          <Value>_ALL_TABLES_</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+          <Value></Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+          <Value>true</Value>
+        </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+          <Value>
+            <Layouts xmlns="">
+              <Diagram>
+                <Name>_ALL_TABLES_</Name>
+                <DiagramLayout />
+                <ShowRelationshipNames>False</ShowRelationshipNames>
+                <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+                <DiagramViewPortLeft>0</DiagramViewPortLeft>
+                <DiagramViewPortTop>0</DiagramViewPortTop>
+                <DiagramBoundingLeft>0</DiagramBoundingLeft>
+                <DiagramBoundingTop>0</DiagramBoundingTop>
+                <DiagramZoom>100</DiagramZoom>
+              </Diagram>
+            </Layouts>
+          </Value>
+        </Annotation>
+      </Annotations>
+      <DataSourceID>Baza_Operacyjna_Import_Port_Gdansk</DataSourceID>
+      <Schema>
+        <xs:schema id="Perspektywy_dostepu_do_danych_Import_Port_Gdansk" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+          <xs:element name="Perspektywy_dostepu_do_danych_Import_Port_Gdansk" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="fb5caf9a-19cf-4fab-abca-78a963906040">
+            <xs:complexType>
+              <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="dbo_TFAKT_GD" msprop:design-time-name="e2ff9b86-4a53-48f0-9bc4-dcc75983593b" msprop:FriendlyName="TFAKT_GD" msprop:DbSchemaName="dbo" msprop:DbTableName="TFAKT_GD" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="id_ladunek_fk" msprop:design-time-name="465cf79d-4979-42b0-9808-d810dcd33467" msprop:DbColumnName="id_ladunek_fk" msprop:FriendlyName="id_ladunek_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_klient_fk" msprop:design-time-name="cd6f5317-1407-4e73-9ba7-ab6a8311efc8" msprop:DbColumnName="id_klient_fk" msprop:FriendlyName="id_klient_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_czas_fk" msprop:design-time-name="52464ab8-4489-49d5-8c59-90ed6eae97b1" msprop:DbColumnName="id_czas_fk" msprop:FriendlyName="id_czas_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_miejsce_fk" msprop:design-time-name="a88b7d35-3620-42c8-adde-a0f64ec098a3" msprop:DbColumnName="id_miejsce_fk" msprop:FriendlyName="id_miejsce_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_parametry_statku_fk" msprop:design-time-name="5ef0199e-d198-43ef-82cf-d1ccf8e0b308" msprop:DbColumnName="id_parametry_statku_fk" msprop:FriendlyName="id_parametry_statku_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="wartosc_zamowienia_EUR" msprop:design-time-name="e588aaee-b25c-437c-ae5e-ef3c5afc7880" msprop:DbColumnName="wartosc_zamowienia_EUR" msprop:FriendlyName="wartosc_zamowienia_EUR" type="xs:double" minOccurs="0" />
+                      <xs:element name="liczba_jednostek" msprop:design-time-name="ea7996a7-5769-470c-80ff-99e387b7aa15" msprop:DbColumnName="liczba_jednostek" msprop:FriendlyName="liczba_jednostek" type="xs:double" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_LOKALIZACJA_GD" msprop:design-time-name="c939a4c9-2727-442e-b584-bb66089a3a8c" msprop:FriendlyName="LOKALIZACJA_GD" msprop:DbSchemaName="dbo" msprop:DbTableName="LOKALIZACJA_GD" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="id_miejsce_pk" msprop:design-time-name="1ea2b48b-ac58-4ac0-a886-751930535567" msprop:DbColumnName="id_miejsce_pk" msprop:FriendlyName="id_miejsce_pk" type="xs:double" />
+                      <xs:element name="id_przeladunek_fk" msprop:design-time-name="fde5929f-2dbb-4a78-a911-5315e3e38cd0" msprop:DbColumnName="id_przeladunek_fk" msprop:FriendlyName="id_przeladunek_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="port_zaladunku" msprop:design-time-name="fd37fd19-aabe-4869-8b32-f1cccd3274a8" msprop:DbColumnName="port_zaladunku" msprop:FriendlyName="port_zaladunku" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="port_przeznaczenia" msprop:design-time-name="4535c81f-42f9-482b-aeec-b6e045f12f8e" msprop:DbColumnName="port_przeznaczenia" msprop:FriendlyName="port_przeznaczenia" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="terminal_rozladunku" msprop:design-time-name="c6a4bc51-d3b5-40d3-a9a4-bc5274326a22" msprop:DbColumnName="terminal_rozladunku" msprop:FriendlyName="terminal_rozladunku" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_CZAS_GD" msprop:design-time-name="80c0d341-f45c-4feb-8f24-cac41a9ca7ff" msprop:FriendlyName="CZAS_GD" msprop:DbSchemaName="dbo" msprop:DbTableName="CZAS_GD" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="id_czas_pk" msprop:design-time-name="2da0633a-d5e1-46ff-b697-c6c32a434e63" msprop:DbColumnName="id_czas_pk" msprop:FriendlyName="id_czas_pk" type="xs:double" />
+                      <xs:element name="dzien_tygodnia_zlozenia_zamowienia" msprop:design-time-name="9da7b97d-de51-42a1-8b74-63772d033cb9" msprop:DbColumnName="dzien_tygodnia_zlozenia_zamowienia" msprop:FriendlyName="dzien_tygodnia_zlozenia_zamowienia" type="xs:double" minOccurs="0" />
+                      <xs:element name="dzien_tygodnia_zlozenia_zamowienia_nazwa" msprop:design-time-name="c6e172db-7447-4781-a6e4-b36cf62e509b" msprop:DbColumnName="dzien_tygodnia_zlozenia_zamowienia_nazwa" msprop:FriendlyName="dzien_tygodnia_zlozenia_zamowienia_nazwa" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="miesiac_zamowienia" msprop:design-time-name="d3ecf913-0bc4-4ba5-b38c-1e0fe8b8c8a4" msprop:DbColumnName="miesiac_zamowienia" msprop:FriendlyName="miesiac_zamowienia" type="xs:double" minOccurs="0" />
+                      <xs:element name="miesiac_zamowienia_nazwa" msprop:design-time-name="b64fbaae-35b9-4af7-9800-4f9ba09ba270" msprop:DbColumnName="miesiac_zamowienia_nazwa" msprop:FriendlyName="miesiac_zamowienia_nazwa" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="rok_zlozenia_zamowienia" msprop:design-time-name="78bfbf47-86e2-403b-952b-e824c5b8fd1a" msprop:DbColumnName="rok_zlozenia_zamowienia" msprop:FriendlyName="rok_zlozenia_zamowienia" type="xs:double" minOccurs="0" />
+                      <xs:element name="kwartal" msprop:design-time-name="12153359-9bc0-43af-b361-53ef8754bedf" msprop:DbColumnName="kwartal" msprop:FriendlyName="kwartal" type="xs:double" minOccurs="0" />
+                      <xs:element name="kwartal_nazwa" msprop:design-time-name="a7b5e91f-6bcf-4131-9065-077db850fe56" msprop:DbColumnName="kwartal_nazwa" msprop:FriendlyName="kwartal_nazwa" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_KLIENT_GD" msprop:design-time-name="f074e611-875e-4f9d-a673-c4844729e74f" msprop:FriendlyName="KLIENT_GD" msprop:DbSchemaName="dbo" msprop:DbTableName="KLIENT_GD" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="id_klient_pk" msprop:design-time-name="355c545c-0e93-4d8a-8e72-aa6603058a1d" msprop:DbColumnName="id_klient_pk" msprop:FriendlyName="id_klient_pk" type="xs:double" />
+                      <xs:element name="id_region_centrum_dystrybucji_fk" msprop:design-time-name="6d11aaa4-3f52-4da2-9316-98d4b0a6cd0c" msprop:DbColumnName="id_region_centrum_dystrybucji_fk" msprop:FriendlyName="id_region_centrum_dystrybucji_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="nazwa_firmy" msprop:design-time-name="43811797-412e-44f8-b979-622b0d09918c" msprop:DbColumnName="nazwa_firmy" msprop:FriendlyName="nazwa_firmy" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="numer_telefonu_centrali" msprop:design-time-name="6d6efb33-a3a2-4244-a18e-3ac42d380c3a" msprop:DbColumnName="numer_telefonu_centrali" msprop:FriendlyName="numer_telefonu_centrali" type="xs:double" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_PARAMETRY_STATKU_GD" msprop:design-time-name="b42adff1-3b70-474d-a1cf-280ce3ce21a8" msprop:FriendlyName="PARAMETRY_STATKU_GD" msprop:DbSchemaName="dbo" msprop:DbTableName="PARAMETRY_STATKU_GD" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="id_parametry_statku_pk" msprop:design-time-name="a2024b6d-8cce-404e-974d-bca965f3bb3a" msprop:DbColumnName="id_parametry_statku_pk" msprop:FriendlyName="id_parametry_statku_pk" type="xs:double" />
+                      <xs:element name="typ_statku" msprop:design-time-name="b1ac5e59-a732-46a4-bcb5-8417cee2fdb3" msprop:DbColumnName="typ_statku" msprop:FriendlyName="typ_statku" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="armator_statku" msprop:design-time-name="0c0e5067-cc9d-43f9-914e-f1b0f4b03397" msprop:DbColumnName="armator_statku" msprop:FriendlyName="armator_statku" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="rozmiar_statku_TEU" msprop:design-time-name="18b30bb0-342d-4ecf-b619-65e7152e3ae7" msprop:DbColumnName="rozmiar_statku_TEU" msprop:FriendlyName="rozmiar_statku_TEU" type="xs:double" minOccurs="0" />
+                      <xs:element name="bandera_statku" msprop:design-time-name="0d17628f-a649-40b6-a2c4-065f49d4869e" msprop:DbColumnName="bandera_statku" msprop:FriendlyName="bandera_statku" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="numer_imo" msprop:design-time-name="cfa0c23b-6e04-49ef-912f-1acf7efaa873" msprop:DbColumnName="numer_imo" msprop:FriendlyName="numer_imo" type="xs:double" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_LADUNEK_GD" msprop:design-time-name="1cb86e89-a9b3-40f6-b6ad-0bb6bf237fb0" msprop:FriendlyName="LADUNEK_GD" msprop:DbSchemaName="dbo" msprop:DbTableName="LADUNEK_GD" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="id_ladunek_pk" msprop:design-time-name="c1161c5d-eba5-4716-8c18-4d961679f809" msprop:DbColumnName="id_ladunek_pk" msprop:FriendlyName="id_ladunek_pk" type="xs:double" />
+                      <xs:element name="id_jednostka_miary_ladunku_fk" msprop:design-time-name="d6a77d23-d844-4709-81fe-c177f43599f8" msprop:DbColumnName="id_jednostka_miary_ladunku_fk" msprop:FriendlyName="id_jednostka_miary_ladunku_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="nazwa_towaru" msprop:design-time-name="bc822a6b-9524-4aa5-97e8-8dc4146a1136" msprop:DbColumnName="nazwa_towaru" msprop:FriendlyName="nazwa_towaru" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="masa_ladunku" msprop:design-time-name="14a908fa-2558-4b6a-adfe-e90ea1323a0f" msprop:DbColumnName="masa_ladunku" msprop:FriendlyName="masa_ladunku" type="xs:double" minOccurs="0" />
+                      <xs:element name="rodzaj_zmiennej_towaru" msprop:design-time-name="5a8a20c4-cdd3-4b2d-abe5-9355995d3644" msprop:DbColumnName="rodzaj_zmiennej_towaru" msprop:FriendlyName="rodzaj_zmiennej_towaru" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="warunki_przewozu" msprop:design-time-name="b7275ffb-2681-4ece-b8b4-ebe182ff87f0" msprop:DbColumnName="warunki_przewozu" msprop:FriendlyName="warunki_przewozu" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_Arkusz1_x0024_" msprop:design-time-name="a5669e35-3973-4674-beee-8dfe14db947c" msprop:FriendlyName="Arkusz1$" msprop:DbSchemaName="dbo" msprop:DbTableName="Arkusz1$" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="nr" msprop:design-time-name="59ebd73f-6552-4b1a-97c6-a20be1efdf81" msprop:DbColumnName="nr" msprop:FriendlyName="nr" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_ladunek_fk" msprop:design-time-name="0a6f84b6-d924-48c3-b9c0-e2f06351625e" msprop:DbColumnName="id_ladunek_fk" msprop:FriendlyName="id_ladunek_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_czas_fk" msprop:design-time-name="100b29af-7758-4598-a932-2a80982d1d37" msprop:DbColumnName="id_czas_fk" msprop:FriendlyName="id_czas_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_miejsce_fk" msprop:design-time-name="e6a542cd-faab-485b-be94-03ecc09c410e" msprop:DbColumnName="id_miejsce_fk" msprop:FriendlyName="id_miejsce_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_parametry_statku_fk" msprop:design-time-name="08183ab1-5de2-4ac4-9555-55928ddfaecd" msprop:DbColumnName="id_parametry_statku_fk" msprop:FriendlyName="id_parametry_statku_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_klient_fk" msprop:design-time-name="7673e333-0569-425d-8508-5a7b10ffd807" msprop:DbColumnName="id_klient_fk" msprop:FriendlyName="id_klient_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="wartosc_zamowienia_EUR" msprop:design-time-name="818c79fc-1d3c-40af-bed3-61b62009f153" msprop:DbColumnName="wartosc_zamowienia_EUR" msprop:FriendlyName="wartosc_zamowienia_EUR" type="xs:double" minOccurs="0" />
+                      <xs:element name="liczba_jednostek" msprop:design-time-name="829d5902-643b-48ba-953f-e4aa7485360d" msprop:DbColumnName="liczba_jednostek" msprop:FriendlyName="liczba_jednostek" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_ladunek_pk" msprop:design-time-name="ec151872-8f0c-4a7b-8d82-7846cabd04f3" msprop:DbColumnName="id_ladunek_pk" msprop:FriendlyName="id_ladunek_pk" type="xs:double" minOccurs="0" />
+                      <xs:element name="nazwa_towaru" msprop:design-time-name="a1bd9873-276b-45f5-8152-fe6e5294da09" msprop:DbColumnName="nazwa_towaru" msprop:FriendlyName="nazwa_towaru" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="masa_ladunku" msprop:design-time-name="4c63f4b1-af2e-4653-8491-0d11104312ee" msprop:DbColumnName="masa_ladunku" msprop:FriendlyName="masa_ladunku" type="xs:double" minOccurs="0" />
+                      <xs:element name="rodzaj_zmiennej_towaru" msprop:design-time-name="4f88e7f0-b12e-4330-9de0-12276c80b2e7" msprop:DbColumnName="rodzaj_zmiennej_towaru" msprop:FriendlyName="rodzaj_zmiennej_towaru" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="warunki_przewozu" msprop:design-time-name="33cf0520-ce88-4e3c-bc76-3a551e5f1100" msprop:DbColumnName="warunki_przewozu" msprop:FriendlyName="warunki_przewozu" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="id_jednostka_miary_ladunku_fk" msprop:design-time-name="d72d17e6-cade-41cc-80fd-708f5d9805af" msprop:DbColumnName="id_jednostka_miary_ladunku_fk" msprop:FriendlyName="id_jednostka_miary_ladunku_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_jednostka_miary_ladunku_pk" msprop:design-time-name="295761c3-3278-4ceb-98f4-a9f50c9a448b" msprop:DbColumnName="id_jednostka_miary_ladunku_pk" msprop:FriendlyName="id_jednostka_miary_ladunku_pk" type="xs:double" minOccurs="0" />
+                      <xs:element name="nazwa_jednostki_miary" msprop:design-time-name="47d2f110-f09b-4548-b17b-db8d1da87ea5" msprop:DbColumnName="nazwa_jednostki_miary" msprop:FriendlyName="nazwa_jednostki_miary" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="jednostka_miary_ladunku_symbol" msprop:design-time-name="196e1e0b-b1f7-4f55-a2df-dad6b4b3bb16" msprop:DbColumnName="jednostka_miary_ladunku_symbol" msprop:FriendlyName="jednostka_miary_ladunku_symbol" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="opis_jednostki_miary" msprop:design-time-name="7f304a81-d2f5-4786-9589-79f145a8acd0" msprop:DbColumnName="opis_jednostki_miary" msprop:FriendlyName="opis_jednostki_miary" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="id_przeladunek_fk" msprop:design-time-name="0324d1e5-6f72-455e-936f-e9457ed43b9e" msprop:DbColumnName="id_przeladunek_fk" msprop:FriendlyName="id_przeladunek_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_przeladunek_pk" msprop:design-time-name="7630803f-949a-4221-9f28-cd4ba8e385ed" msprop:DbColumnName="id_przeladunek_pk" msprop:FriendlyName="id_przeladunek_pk" type="xs:double" minOccurs="0" />
+                      <xs:element name="srodek_transportu_przeladunek" msprop:design-time-name="9424fb7f-6eba-4d58-9d54-9bcda580b8e7" msprop:DbColumnName="srodek_transportu_przeladunek" msprop:FriendlyName="srodek_transportu_przeladunek" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="wystepowanie_systemu_intermodalnego" msprop:design-time-name="ad264df3-ce8b-41a7-8dfe-6286adfe80a1" msprop:DbColumnName="wystepowanie_systemu_intermodalnego" msprop:FriendlyName="wystepowanie_systemu_intermodalnego" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="rodzaj_systemu_intermodalnego" msprop:design-time-name="131a54f8-e93d-4c94-8453-cd2766cdf38d" msprop:DbColumnName="rodzaj_systemu_intermodalnego" msprop:FriendlyName="rodzaj_systemu_intermodalnego" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="id_miejsce_pk" msprop:design-time-name="4995513e-5f36-4cec-a7db-151b448b693f" msprop:DbColumnName="id_miejsce_pk" msprop:FriendlyName="id_miejsce_pk" type="xs:double" minOccurs="0" />
+                      <xs:element name="port_zaladunku" msprop:design-time-name="f8851484-3da8-43d2-acb7-dcfdbb16f2e4" msprop:DbColumnName="port_zaladunku" msprop:FriendlyName="port_zaladunku" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="port_przeznaczenia" msprop:design-time-name="e8d82083-1980-47da-8741-05799d43afa1" msprop:DbColumnName="port_przeznaczenia" msprop:FriendlyName="port_przeznaczenia" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="terminal_rozladunku" msprop:design-time-name="12b003ab-f82a-4bb6-a5a6-8c62dfbe8e4d" msprop:DbColumnName="terminal_rozladunku" msprop:FriendlyName="terminal_rozladunku" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="id_czas_pk" msprop:design-time-name="03e86f40-860f-46c3-93d6-623e8bdc2db0" msprop:DbColumnName="id_czas_pk" msprop:FriendlyName="id_czas_pk" type="xs:double" minOccurs="0" />
+                      <xs:element name="dzien_tygodnia_zlozenia_zamowienia" msprop:design-time-name="3561cc4c-7425-489e-bbdf-26f18906e256" msprop:DbColumnName="dzien_tygodnia_zlozenia_zamowienia" msprop:FriendlyName="dzien_tygodnia_zlozenia_zamowienia" type="xs:double" minOccurs="0" />
+                      <xs:element name="dzien_tygodnia_zlozenia_zamowienia_nazwa" msprop:design-time-name="2072bbc7-a56b-43fe-8f4a-a6dc008d7431" msprop:DbColumnName="dzien_tygodnia_zlozenia_zamowienia_nazwa" msprop:FriendlyName="dzien_tygodnia_zlozenia_zamowienia_nazwa" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="miesiac_zamowienia" msprop:design-time-name="14643177-d91e-4f94-b1ba-52b747055c83" msprop:DbColumnName="miesiac_zamowienia" msprop:FriendlyName="miesiac_zamowienia" type="xs:double" minOccurs="0" />
+                      <xs:element name="miesiac_zamowienia_nazwa" msprop:design-time-name="50e13b74-1751-4ae9-9dd2-65756489457a" msprop:DbColumnName="miesiac_zamowienia_nazwa" msprop:FriendlyName="miesiac_zamowienia_nazwa" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="rok_zlozenia_zamowienia" msprop:design-time-name="410c87da-2f9b-4e1d-b67b-a6d40f15b069" msprop:DbColumnName="rok_zlozenia_zamowienia" msprop:FriendlyName="rok_zlozenia_zamowienia" type="xs:double" minOccurs="0" />
+                      <xs:element name="kwartal" msprop:design-time-name="39db06fd-84f4-4ae5-8e5a-95c6e3146107" msprop:DbColumnName="kwartal" msprop:FriendlyName="kwartal" type="xs:double" minOccurs="0" />
+                      <xs:element name="kwartal_nazwa" msprop:design-time-name="931b75ab-7d82-4e4e-b28c-6efe0ac1bdbf" msprop:DbColumnName="kwartal_nazwa" msprop:FriendlyName="kwartal_nazwa" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="id_parametry_statku_pk" msprop:design-time-name="81957d7c-716a-4346-92d7-75cc6943c601" msprop:DbColumnName="id_parametry_statku_pk" msprop:FriendlyName="id_parametry_statku_pk" type="xs:double" minOccurs="0" />
+                      <xs:element name="typ_statku" msprop:design-time-name="4820c6bb-887b-4882-a1ef-d2ffa362adde" msprop:DbColumnName="typ_statku" msprop:FriendlyName="typ_statku" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="armator_statku" msprop:design-time-name="2a6db55e-8ace-4276-bfbd-f6affb38129f" msprop:DbColumnName="armator_statku" msprop:FriendlyName="armator_statku" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="rozmiar_statku_TEU" msprop:design-time-name="5251deeb-9139-435e-987b-138625db1a2a" msprop:DbColumnName="rozmiar_statku_TEU" msprop:FriendlyName="rozmiar_statku_TEU" type="xs:double" minOccurs="0" />
+                      <xs:element name="bandera_statku" msprop:design-time-name="a043aefe-0271-45c7-8765-9658ba165b8e" msprop:DbColumnName="bandera_statku" msprop:FriendlyName="bandera_statku" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="numer_imo" msprop:design-time-name="6156fdac-6afe-45b5-9576-4e3fdcd92452" msprop:DbColumnName="numer_imo" msprop:FriendlyName="numer_imo" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_klient_pk" msprop:design-time-name="7514be2a-6db1-40f5-87f9-36b06d97fa1c" msprop:DbColumnName="id_klient_pk" msprop:FriendlyName="id_klient_pk" type="xs:double" minOccurs="0" />
+                      <xs:element name="nazwa_firmy" msprop:design-time-name="5ac838c6-7474-4537-911f-ee0b6ca63c53" msprop:DbColumnName="nazwa_firmy" msprop:FriendlyName="nazwa_firmy" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="numer_telefonu_centrali" msprop:design-time-name="e24e400b-f7a3-4be5-b432-109df22193d6" msprop:DbColumnName="numer_telefonu_centrali" msprop:FriendlyName="numer_telefonu_centrali" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_region_centrum_dystrybucji_fk" msprop:design-time-name="7c1fda35-1817-4286-b3ec-d744c7d627dc" msprop:DbColumnName="id_region_centrum_dystrybucji_fk" msprop:FriendlyName="id_region_centrum_dystrybucji_fk" type="xs:double" minOccurs="0" />
+                      <xs:element name="id_region_centrum_dystrybucji_pk" msprop:design-time-name="0b631ae8-be05-402a-8096-66e7459ddd48" msprop:DbColumnName="id_region_centrum_dystrybucji_pk" msprop:FriendlyName="id_region_centrum_dystrybucji_pk" type="xs:double" minOccurs="0" />
+                      <xs:element name="region_centrum_dystrybucji" msprop:design-time-name="5a72f4ed-8316-4f6e-b157-0021797d9e76" msprop:DbColumnName="region_centrum_dystrybucji" msprop:FriendlyName="region_centrum_dystrybucji" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="wojewodztwo_centrum_dystrybucji" msprop:design-time-name="0412c57c-f013-40be-9adf-ff7388fedeae" msprop:DbColumnName="wojewodztwo_centrum_dystrybucji" msprop:FriendlyName="wojewodztwo_centrum_dystrybucji" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="numer_telefonu_oddziału" msprop:design-time-name="91416131-848a-485f-969a-5e86da038df2" msprop:DbColumnName="numer_telefonu_oddziału" msprop:FriendlyName="numer_telefonu_oddziału" type="xs:double" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_CENTRUM_DYSTRYBUCJI_GD" msprop:design-time-name="38b3f236-c76b-45de-94dc-fde279f87d3a" msprop:FriendlyName="CENTRUM_DYSTRYBUCJI_GD" msprop:DbSchemaName="dbo" msprop:DbTableName="CENTRUM_DYSTRYBUCJI_GD" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="id_region_centrum_dystrybucji_pk" msprop:design-time-name="9e43b49f-99bc-48d5-b6bf-0708b79b8e6d" msprop:DbColumnName="id_region_centrum_dystrybucji_pk" msprop:FriendlyName="id_region_centrum_dystrybucji_pk" type="xs:double" />
+                      <xs:element name="region_centrum_dystrybucji" msprop:design-time-name="7e1da68b-3642-46fd-8be5-a2510baeb954" msprop:DbColumnName="region_centrum_dystrybucji" msprop:FriendlyName="region_centrum_dystrybucji" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="wojewodztwo_centrum_dystrybucji" msprop:design-time-name="9160068f-1565-40e4-a897-325d338663f7" msprop:DbColumnName="wojewodztwo_centrum_dystrybucji" msprop:FriendlyName="wojewodztwo_centrum_dystrybucji" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="numer_telefonu_oddziału" msprop:design-time-name="6c2fd916-b271-4983-91ce-528c4014aea5" msprop:DbColumnName="numer_telefonu_oddziału" msprop:FriendlyName="numer_telefonu_oddziału" type="xs:double" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_JEDNOSTKA_MIARY_LADUNKU_GD" msprop:design-time-name="9a2f02f9-e75a-4952-8624-97b4ba6ee90f" msprop:FriendlyName="JEDNOSTKA_MIARY_LADUNKU_GD" msprop:DbSchemaName="dbo" msprop:DbTableName="JEDNOSTKA_MIARY_LADUNKU_GD" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="id_jednostka_miary_ladunku_pk" msprop:design-time-name="6806a4d8-b038-4b44-9549-ec8fdf397675" msprop:DbColumnName="id_jednostka_miary_ladunku_pk" msprop:FriendlyName="id_jednostka_miary_ladunku_pk" type="xs:double" />
+                      <xs:element name="nazwa_jednostki_miary" msprop:design-time-name="cbef8e05-1696-4504-aa44-72198a100522" msprop:DbColumnName="nazwa_jednostki_miary" msprop:FriendlyName="nazwa_jednostki_miary" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="jednostka_miary_ladunku_symbol" msprop:design-time-name="e7d6a4f9-0d53-4312-b512-1e937aaf59ce" msprop:DbColumnName="jednostka_miary_ladunku_symbol" msprop:FriendlyName="jednostka_miary_ladunku_symbol" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="opis_jednostki_miary" msprop:design-time-name="7e5b40f3-fecb-4e7d-8745-3900498246ae" msprop:DbColumnName="opis_jednostki_miary" msprop:FriendlyName="opis_jednostki_miary" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="dbo_PRZELADUNEK_GD" msprop:design-time-name="89ee3165-d6fb-4b43-aacd-d2d542a9d4a1" msprop:FriendlyName="PRZELADUNEK_GD" msprop:DbSchemaName="dbo" msprop:DbTableName="PRZELADUNEK_GD" msprop:TableType="Table">
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="id_przeladunek_pk" msprop:design-time-name="79d4072c-43e1-4be8-8b1d-70460be14425" msprop:DbColumnName="id_przeladunek_pk" msprop:FriendlyName="id_przeladunek_pk" type="xs:double" />
+                      <xs:element name="srodek_transportu_przeladunek" msprop:design-time-name="83fd3cb8-f9ff-45c0-b810-48010170dfec" msprop:DbColumnName="srodek_transportu_przeladunek" msprop:FriendlyName="srodek_transportu_przeladunek" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="wystepowanie_systemu_intermodalnego" msprop:design-time-name="4181c8e5-d5af-4865-8215-1bdeaee98afc" msprop:DbColumnName="wystepowanie_systemu_intermodalnego" msprop:FriendlyName="wystepowanie_systemu_intermodalnego" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                      <xs:element name="rodzaj_systemu_intermodalnego" msprop:design-time-name="c548b67e-6178-4e4a-8596-89f4c263d41a" msprop:DbColumnName="rodzaj_systemu_intermodalnego" msprop:FriendlyName="rodzaj_systemu_intermodalnego" minOccurs="0">
+                        <xs:simpleType>
+                          <xs:restriction base="xs:string">
+                            <xs:maxLength value="255" />
+                          </xs:restriction>
+                        </xs:simpleType>
+                      </xs:element>
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:choice>
+            </xs:complexType>
+            <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_LOKALIZACJA_GD" />
+              <xs:field xpath="id_miejsce_pk" />
+            </xs:unique>
+            <xs:unique name="dbo_CZAS_GD_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_CZAS_GD" />
+              <xs:field xpath="id_czas_pk" />
+            </xs:unique>
+            <xs:unique name="dbo_KLIENT_GD_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_KLIENT_GD" />
+              <xs:field xpath="id_klient_pk" />
+            </xs:unique>
+            <xs:unique name="dbo_PARAMETRY_STATKU_GD_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_PARAMETRY_STATKU_GD" />
+              <xs:field xpath="id_parametry_statku_pk" />
+            </xs:unique>
+            <xs:unique name="dbo_LADUNEK_GD_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_LADUNEK_GD" />
+              <xs:field xpath="id_ladunek_pk" />
+            </xs:unique>
+            <xs:unique name="dbo_CENTRUM_DYSTRYBUCJI_GD_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_CENTRUM_DYSTRYBUCJI_GD" />
+              <xs:field xpath="id_region_centrum_dystrybucji_pk" />
+            </xs:unique>
+            <xs:unique name="dbo_JEDNOSTKA_MIARY_LADUNKU_GD_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_JEDNOSTKA_MIARY_LADUNKU_GD" />
+              <xs:field xpath="id_jednostka_miary_ladunku_pk" />
+            </xs:unique>
+            <xs:unique name="dbo_PRZELADUNEK_GD_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+              <xs:selector xpath=".//dbo_PRZELADUNEK_GD" />
+              <xs:field xpath="id_przeladunek_pk" />
+            </xs:unique>
+            <xs:keyref name="id_jednostka_miary_ladunku_fk" refer="dbo_JEDNOSTKA_MIARY_LADUNKU_GD_Constraint1">
+              <xs:selector xpath=".//dbo_LADUNEK_GD" />
+              <xs:field xpath="id_jednostka_miary_ladunku_fk" />
+            </xs:keyref>
+            <xs:keyref name="id_region_centrum_dystrybucji_fk" refer="dbo_CENTRUM_DYSTRYBUCJI_GD_Constraint1">
+              <xs:selector xpath=".//dbo_KLIENT_GD" />
+              <xs:field xpath="id_region_centrum_dystrybucji_fk" />
+            </xs:keyref>
+            <xs:keyref name="id_ladunek_przeladunek_fk" refer="dbo_PRZELADUNEK_GD_Constraint1">
+              <xs:selector xpath=".//dbo_LOKALIZACJA_GD" />
+              <xs:field xpath="id_przeladunek_fk" />
+            </xs:keyref>
+            <xs:keyref name="FK__TFAKT_GD__id_lad__36B12243" refer="dbo_LADUNEK_GD_Constraint1">
+              <xs:selector xpath=".//dbo_TFAKT_GD" />
+              <xs:field xpath="id_ladunek_fk" />
+            </xs:keyref>
+            <xs:keyref name="FK__TFAKT_GD__id_mie__398D8EEE" refer="Constraint1">
+              <xs:selector xpath=".//dbo_TFAKT_GD" />
+              <xs:field xpath="id_miejsce_fk" />
+            </xs:keyref>
+            <xs:keyref name="FK__TFAKT_GD__id_cza__38996AB5" refer="dbo_CZAS_GD_Constraint1">
+              <xs:selector xpath=".//dbo_TFAKT_GD" />
+              <xs:field xpath="id_czas_fk" />
+            </xs:keyref>
+            <xs:keyref name="FK__TFAKT_GD__id_par__3A81B327" refer="dbo_PARAMETRY_STATKU_GD_Constraint1">
+              <xs:selector xpath=".//dbo_TFAKT_GD" />
+              <xs:field xpath="id_parametry_statku_fk" />
+            </xs:keyref>
+            <xs:keyref name="FK__TFAKT_GD__id_kli__37A5467C" refer="dbo_KLIENT_GD_Constraint1">
+              <xs:selector xpath=".//dbo_TFAKT_GD" />
+              <xs:field xpath="id_klient_fk" />
+            </xs:keyref>
+          </xs:element>
+        </xs:schema>
+        <Perspektywy_dostepu_do_danych_Import_Port_Gdansk xmlns="" />
+      </Schema>
+    </DataSourceView>
+  </DataSourceViews>
+</Database>

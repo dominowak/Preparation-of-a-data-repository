@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Baza_Operacyjna_Import_Port_Gdansk</Database>
+    <Server>DESKTOP-3JK0H73\SQLEXPRESS03</Server>
+    <ConnectionString>Data Source=DESKTOP-3JK0H73\SQLEXPRESS03;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>evNOHMMrTdTiT1TFp97vXp18sH8=14.01.2022 15:49:2214.01.2022 15:46:14</TimeStamp>
+        <ID>
+          <String>Baza_Operacyjna_Import_Port_Gdansk</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>4eBHqG2D5HAWQvEbwE7hpPGNPGI=14.01.2022 15:47:2714.01.2022 15:47:26</TimeStamp>
+        <ID>
+          <String>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>bOyZDPismvr0xnLftmDXY0sY2yo=14.01.2022 15:52:0314.01.2022 15:48:07</TimeStamp>
+        <ID>
+          <String>KLIENT GD</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2lU0iIVUcdjGO7qufv0aa7qYy+g=14.01.2022 15:52:2214.01.2022 15:48:07</TimeStamp>
+        <ID>
+          <String>PARAMETRY STATKU GD</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IhoBPMz7JD7P6Jdb1/Csf/L2kUM=14.01.2022 15:57:0214.01.2022 15:48:07</TimeStamp>
+        <ID>
+          <String>CZAS GD</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/y8XiHBYjomK+rdD0avswG9lIo4=14.01.2022 15:57:0214.01.2022 15:48:07</TimeStamp>
+        <ID>
+          <String>LOKALIZACJA GD</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jpQU+BU2wL/eg3xWCU86i75gWps=14.01.2022 15:57:0214.01.2022 15:48:07</TimeStamp>
+        <ID>
+          <String>LADUNEK GD</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>I9cbsmQxSJXnISKV3kUolR98FOQ=14.01.2022 15:57:0214.01.2022 15:48:07h/C02aNkVIDsfDX/jeoS/KoCDrA=14.01.2022 15:48:0714.01.2022 15:48:07</TimeStamp>
+        <ID>
+          <String>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>34sOi4u7tBt0Rqn0XoXufOCnvtA=14.01.2022 15:43:4214.01.2022 15:43:42</TimeStamp>
+      <ID>
+        <String>Baza_Operacyjna_Import_Port_Gdansk</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2022-01-14T14:57:06.113333Z</LastDeployed>
+</DeploymentSnapshot>

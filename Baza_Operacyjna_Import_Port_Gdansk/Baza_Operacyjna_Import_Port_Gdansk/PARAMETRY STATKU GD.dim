@@ -1,0 +1,202 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fe90af3d-e769-4ee9-b13f-06ced6b1ed5d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>PARAMETRY STATKU GD</ID>
+  <Name>PARAMETRY STATKU GD</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3081" scrolltop="-9515" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10499" y="22056" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PARAMETRY_STATKU_GD" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4297" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000c9100000d30b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_PARAMETRY_STATKU_GD" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3081</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-9515</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="62b2238c-3c8e-4682-afb0-22965a371443">
+    <DataSourceViewID>Perspektywy_dostepu_do_danych_Import_Port_Gdansk</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="307b3f30-1f80-490c-8719-ba299f6a2fe1">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="01e35f66-1c06-44b6-ac16-d19888f9125c">
+      <ID>Id Parametry Statku Pk</ID>
+      <Name>Id Parametry Statku Pk</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3ccb47b2-8a00-415c-9ada-cc8c684ad34d">
+          <DataType>Double</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b6e63ce1-4253-42c8-8e58-300b971959ec">
+            <TableID>dbo_PARAMETRY_STATKU_GD</TableID>
+            <ColumnID>id_parametry_statku_pk</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="2af9dbf0-cb0a-4859-a9be-0f6e9d926899">
+          <AttributeID>Typ Statku</AttributeID>
+          <Name>Typ Statku</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c4eb37d3-eedb-4798-a0ef-93da227a7309">
+          <AttributeID>Armator Statku</AttributeID>
+          <Name>Armator Statku</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="92f11984-19d0-4c89-a464-73034258c45d">
+          <AttributeID>Rozmiar Statku TEU</AttributeID>
+          <Name>Rozmiar Statku TEU</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="16079d83-eeac-4718-a923-7d936c84cd50">
+          <AttributeID>Bandera Statku</AttributeID>
+          <Name>Bandera Statku</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c61ad4ee-87b3-4988-9e59-db087bdab78e">
+          <AttributeID>Numer Imo</AttributeID>
+          <Name>Numer Imo</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9cb42457-7943-4170-8413-4ffc5a340342">
+      <ID>Typ Statku</ID>
+      <Name>Typ Statku</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="858a46c4-441e-4c04-8c0c-039247ff76d0">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="daffd527-e1a7-4d93-b660-121af9a1552c">
+            <TableID>dbo_PARAMETRY_STATKU_GD</TableID>
+            <ColumnID>typ_statku</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="82a15e3e-84aa-4928-b3a2-007b857d3552">
+      <ID>Armator Statku</ID>
+      <Name>Armator Statku</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fe2222a9-68b9-4570-8a41-f5a794cbecda">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e17dc817-aaac-49ea-891c-c51746db570c">
+            <TableID>dbo_PARAMETRY_STATKU_GD</TableID>
+            <ColumnID>armator_statku</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="49bc75b5-3a06-4115-a330-931eeca6e630">
+      <ID>Rozmiar Statku TEU</ID>
+      <Name>Rozmiar Statku TEU</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9b15e6e3-0f6f-4dea-8730-93660608aa3c">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e7a6203f-96d5-4d6c-b7cc-71781806f325">
+            <TableID>dbo_PARAMETRY_STATKU_GD</TableID>
+            <ColumnID>rozmiar_statku_TEU</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eb4abdc1-9960-4d17-b126-b7ae93007e2a">
+      <ID>Bandera Statku</ID>
+      <Name>Bandera Statku</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cc8aa068-cd12-4810-8aa8-d80ed30d3692">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aaea9873-7906-4abd-8387-cafe8845cadb">
+            <TableID>dbo_PARAMETRY_STATKU_GD</TableID>
+            <ColumnID>bandera_statku</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d6e0ee36-0c78-4e8d-9d60-4e0a3a4f23d0">
+      <ID>Numer Imo</ID>
+      <Name>Numer Imo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="78e1643a-d80c-4aa7-a46a-3b70b17103dd">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f313264-33a4-43e7-8dc1-0cfc67e59570">
+            <TableID>dbo_PARAMETRY_STATKU_GD</TableID>
+            <ColumnID>numer_imo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
